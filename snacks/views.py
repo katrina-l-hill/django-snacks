@@ -6,3 +6,7 @@ from django.views.generic import TemplateView
 class HomePageView(TemplateView):
     # TemplateView needs one thing from the sub-class
     template_name = "home.html"
+
+
+class AboutPageView(TemplateView):
+    template_name = "about.html"
