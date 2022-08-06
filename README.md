@@ -27,11 +27,13 @@ Create web site in Django with 2 pages
 9. Make and apply migrations --> python manage.py makemigrations snacks
 10. Apply the migrations --> python manage.py runserver
 11. Create a super user as the administator of the site --> python manage.py createsuperuser
-# username: admin
-# email address: admin@admin.com
-# password: admin
-12. Test that the TUV and migrations worked in the development server
-13. Add /admin to the end of the local host url to log in with the admin credentials
+
+- username: admin
+- email address: admin@admin.com
+- password: admin
+
+12.Test that the TUV and migrations worked in the development server
+13.Add /admin to the end of the local host url to log in with the admin credentials
 
 ### Tests
 
